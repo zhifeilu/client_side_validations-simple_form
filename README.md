@@ -11,9 +11,9 @@
 In your Gemfile add the following:
 
 ```ruby
-gem 'simple_form'
-gem 'client_side_validations'
-gem 'client_side_validations-simple_form'
+gem 'simple_form', '~> 3.0.0.rc'
+gem 'client_side_validations', github: "bcardarella/client_side_validations", branch: "4-0-beta"
+gem 'client_side_validations-simple_form', gem 'client_side_validations-simple_form', github: "zhifeilu/client_side_validations-simple_form", branch: '3-0-stable '
 ```
 
 Order matters here. `SimpleForm` and `ClientSideValidations` need to be
